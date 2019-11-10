@@ -1,12 +1,11 @@
 import styled from 'styled-components'
 
 export const HeaderWrapper = styled.header`
+    grid-area: head;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: #fff;
-    width: 100%;
-    height: 30vh;
 `
 export const Title = styled.h1`
     font-size: 2rem;
