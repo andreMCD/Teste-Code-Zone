@@ -7,8 +7,3 @@ export const HeaderWrapper = styled.header`
     align-items: center;
     background: #fff;
 `
-export const Title = styled.h1`
-    font-size: 2rem;
-    font-weight: bold;
-    color: #00adb5;
-`
