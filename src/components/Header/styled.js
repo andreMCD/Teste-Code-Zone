@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const HeaderWrapper = styled.header`
     grid-area: head;
@@ -6,4 +7,9 @@ export const HeaderWrapper = styled.header`
     justify-content: space-around;
     align-items: center;
     background: #fff;
+
+    ${media.lessThan('large')`
+        flex-flow: column;
+       justify-content: center; 
+    `}
 `
