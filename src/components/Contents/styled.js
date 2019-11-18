@@ -11,4 +11,5 @@ export const Title = styled.h1`
 export const Paragraph = styled.p`
   font-size: 1.2rem;
   padding: 0 2rem;
+  color: #8899a6;
 `;

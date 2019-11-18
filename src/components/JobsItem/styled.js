@@ -7,8 +7,8 @@ export const JobsItemWrapper = styled.section`
   display: flex;
   flex-flow: column;
   padding: 2rem 0;
-
-  background: #fff;
+  border-top: 1px solid #1fa1f2;
+  border-bottom: 1px solid #1fa1f2;
 
   ${media.lessThan("large")`
         height: 300px;
