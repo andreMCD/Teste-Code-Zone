@@ -13,11 +13,7 @@ export const LayoutWrapper = styled.section`
   background: #222831;
 
   ${media.lessThan("large")`
-   grid-template:
-   'head' 20%
-   'main' 40%
-   'aside' 30%
-   'footer' 10%
-   / 1fr
+   display: flex;
+   flex-flow: column;
  `}
 `;

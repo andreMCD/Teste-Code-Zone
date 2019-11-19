@@ -11,5 +11,6 @@ export const HeaderWrapper = styled.header`
   ${media.lessThan("large")`
         flex-flow: column;
        justify-content: center;
+       padding: 2rem 1.5rem;
     `}
 `;

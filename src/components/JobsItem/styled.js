@@ -12,5 +12,7 @@ export const JobsItemWrapper = styled.section`
 
   ${media.lessThan("large")`
         height: 300px;
+        border: none;
+        border-bottom: 1px solid #1fa1f2;
     `}
 `;

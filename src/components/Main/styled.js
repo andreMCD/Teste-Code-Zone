@@ -10,6 +10,6 @@ export const MainWrapper = styled.section`
   background: #393e46;
 
   ${media.lessThan("large")`
-        padding: 0;
+        padding: 2rem 0;
     `}
 `;

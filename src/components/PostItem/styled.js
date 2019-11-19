@@ -30,9 +30,11 @@ export const PostItemContainer = styled.div`
 
   ${media.lessThan("large")`
         width: 100vw;
+        justify-content: center;
+        align-items: center;
         border-left: none;
         border-bottom: 1px solid #8899a6;
-        padding: .5rem 1.5rem;
+        padding: 0;
     `}
 `;
 
